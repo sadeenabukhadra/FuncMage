@@ -1,5 +1,6 @@
 # FuncMage
  This project takes us to discover and learn a bout the techniques of functional programming in python!
+
 CONTENTS :
 - ex0 : Lambda Sanctum - Master anonymous functions and lambda expressions
 - ex1 : Higher Realm - Discover the power of higher-order functions
