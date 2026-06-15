@@ -18,4 +18,6 @@ anonymous functions : a simple function without name(without def decleration).
  - syntacs : filter( condition/function ,iterable/ input)
     - function -> test each element and if return ,True keep the element , if False discard the element.
     - iterable -> Any iterable (list,tuple set, etc).
+    - Return Value: A filter object (an iterator), which can be converted into a list, tuple, set, etc.
+      --- It returns a new iterable without modifying the original ---
   
