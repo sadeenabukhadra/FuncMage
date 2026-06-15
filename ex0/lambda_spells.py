@@ -12,5 +12,33 @@ def spell_transformer(spells: list[str]) -> list[str]:
     return list(map(lambda spell: f"* {spell} *", spells))
 
 
-artifact_sorterr = ["Merlin", "power", "Fire"]
-print(spell_transformer(artifact_sorterr))
+def mage_stats(mages: list[dict]) -> dict:
+    powers = list(map(lambda mege: mege["power"], mages))
+    return {
+        "max_power": max(powers),
+        "min_power": min(powers),
+        "avg_power": round(sum(powers) / len(powers), 2),
+    }
+
+
+artifacts = [
+    {"name": "Crystal Wand", "power": 50, "type": "Weapon"},
+    {"name": "Dragon Orb", "power": 90, "type": "Artifact"},
+    {"name": "Magic Ring", "power": 70, "type": "Accessory"},
+]
+
+meges = [
+    {"name": "Crystal Wand", "power": 50, "type": "Weapon"},
+    {"name": "Dragon Orb", "power": 90, "type": "Artifact"},
+    {"name": "Magic Ring", "power": 70, "type": "Accessory"},
+]
+
+spells = ["Merlin", "power", "Fire"]
+print("sorted artifacts:")
+print(artifact_sorter(artifacts))
+print("\n power mages (power >=70)")
+print(power_filter(meges, 70))
+print("\n spell_transformer")
+print(spell_transformer(spells))
+print("\n meges statistics:")
+print(mage_stats(meges))
