@@ -29,4 +29,4 @@ and returns a map object (iterator). it sa higher-order function used for unifor
   - function :  the function to apply to every element of the iterable
   - iterable : one or more iterable objects (list, tuple) whose elements will be processed
   - ... : we can pass a multiple iterables objects if the function accepts multiple arguments.
-  - for makeing it esier :map() with lambda -> We can use a lambda function instead of a custom function with map() to make code shorter and easier .
+  - for making it esier :map() with lambda -> We can use a lambda function instead of a custom function with map() to make code shorter and easier .
