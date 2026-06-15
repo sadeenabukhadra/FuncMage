@@ -21,6 +21,7 @@ anonymous functions : a simple function without name(without def decleration).
     - iterable -> Any iterable (list,tuple set, etc).
     - Return Value: A filter object (an iterator), which can be converted into a list, tuple, set, etc.
       --- It returns a new iterable without modifying the original ---
+     - when we use a lambda with a filter we write a lambda function directly without key. 
 
 3) map : a function that applies a given function to each element of an iterable (list,tuple,set,etc)
 and returns a map object (iterator). it sa higher-order function used for uniform element-wise transformation , anabling concise and effcient code.
