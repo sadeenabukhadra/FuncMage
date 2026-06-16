@@ -2,11 +2,11 @@
  This project takes us to discover and learn a bout the techniques of functional programming in python!
 
 CONTENTS :
-- [ex0](#EX0) : Lambda Sanctum - Master anonymous functions and lambda expressions
-- ex1 : Higher Realm - Discover the power of higher-order functions
-- ex2 : Memory Depths - Understand lexical scoping and closures
-- ex3 : Ancient Library - Explore the functools module’s treasures
-- ex4 : Master’s Tower - Create powerful decorators and class methods
+- [EX0](#EX0) : Lambda Sanctum - Master anonymous functions and lambda expressions
+- [EX1](#EX1) : Higher Realm - Discover the power of higher-order functions
+- [EX2](#EX2) : Memory Depths - Understand lexical scoping and closures
+- [EX3](#EX3) : Ancient Library - Explore the functools module’s treasures
+- [EX4](#EX4): Master’s Tower - Create powerful decorators and class methods
 
 # EX0 
 The idea of this exercise we learn a bout anonymous functions ( lambda ,filter, map) 
@@ -30,3 +30,13 @@ and returns a map object (iterator). it sa higher-order function used for unifor
   - iterable : one or more iterable objects (list, tuple) whose elements will be processed
   - ... : we can pass a multiple iterables objects if the function accepts multiple arguments.
   - for making it esier :map() with lambda -> We can use a lambda function instead of a custom function with map() to make code shorter and easier .
+
+# EX1 
+The idea of this exercise we learn a bout [FIRST-CLASS CITIZENs](# FIRST-CLASS CITIZENS).
+
+   # FIRST-CLASS CITIZENS : these are  entities that support all operations availble to other entities in the programming language . it pased as arguments , returned from functions , asssigned to variables and sorted in data structures.
+   - passing functions as arguments:
+   - 
+
+
+ 
