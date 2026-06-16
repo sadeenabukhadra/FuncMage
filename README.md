@@ -45,7 +45,11 @@ The idea of this exercise we learn a bout [FIRST-CLASS CITIZENs](# FIRST-CLASS C
   - Return values ? Can be returned from functions
   - Storage ? Can be stored in data structures like lists or dictionaries
   - Runtime creation ? Can be created at runtime 
+- Callable :
 
+
+
+- callable : it ckecks if an object is callable (return True or False )
      
 
 
