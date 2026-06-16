@@ -34,9 +34,19 @@ and returns a map object (iterator). it sa higher-order function used for unifor
 # EX1 
 The idea of this exercise we learn a bout [FIRST-CLASS CITIZENs](# FIRST-CLASS CITIZENS).
 
-   # FIRST-CLASS CITIZENS : these are  entities that support all operations availble to other entities in the programming language . it pased as arguments , returned from functions , asssigned to variables and sorted in data structures.
-   - passing functions as arguments:
-   - 
+- FIRST-CLASS CITIZENS : these are  entities that support all operations availble to other entities in the programming language( in python First-Class Citizens (or First-Class Objects) means that functions are treated like any other object (such as integers, strings, or lists)) . it pased as arguments , returned from functions , asssigned to variables and sorted in data structures.
+     1)Assigning Functions to Variables 
+     2)Passing Functions as Arguments
+     3)Returning Functions from Functions
+
+- Key Properties of First-Class Citizens:
+  -  Assignment ? Can be assigned to variables
+  - Argument passing ? Can be passed as function arguments
+  - Return values ? Can be returned from functions
+  - Storage ? Can be stored in data structures like lists or dictionaries
+  - Runtime creation ? Can be created at runtime 
+
+     
 
 
  
