@@ -56,16 +56,22 @@ The idea of this exercise we learn a bout FIRST-CLASS CITIZENS , functions can b
      we can build systems by connecting simple, reusable functions.
 
      -In this project:
-            - spell_combiner reuses two spells together
-            - power_amplifier reuses a spell but modifies its input
-            - conditional_caster reuses a spell only when a condition is met
-            - spell_sequence reuses multiple spells in order
+     
+        - spell_combiner reuses two spells together
+     
+        - power_amplifier reuses a spell but modifies its input
+   
+        - conditional_caster reuses a spell only when a condition is met
+        
+        - spell_sequence reuses multiple spells in order
+          
 2) What makes functions “first-class citizens” in Python?
    - Functions are called first-class citizens because they can be treated like any other object in Python. This means they can:
       - Be assigned to variables
       - Be passed as arguments to other functions
       - Be returned from functions
       - Be stored in data structures like lists or dictionaries
+     
      Example from the project: -> We pass functions like flower and tree into other functions such as spell_combiner and spell_sequence.
 
 3) From which package is Callable recommended? 
