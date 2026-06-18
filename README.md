@@ -32,9 +32,9 @@ and returns a map object (iterator). it sa higher-order function used for unifor
   - for making it esier :map() with lambda -> We can use a lambda function instead of a custom function with map() to make code shorter and easier .
 
 # EX1 
-The idea of this exercise we learn a bout [FIRST-CLASS CITIZENs](# FIRST-CLASS CITIZENS).
+The idea of this exercise we learn a bout FIRST-CLASS CITIZENS , functions can behave like values (objects)
 
-- FIRST-CLASS CITIZENS : these are  entities that support all operations availble to other entities in the programming language( in python First-Class Citizens (or First-Class Objects) means that functions are treated like any other object (such as integers, strings, or lists)) . it pased as arguments , returned from functions , asssigned to variables and sorted in data structures.
+- FIRST-CLASS CITIZENS : these are  entities that support all operations availble to other entities in the programming language( in python First-Class Citizens (or First-Class Objects) means that functions are treated like any other object (such as integers, strings, or lists)) . it pased as arguments , returned from functions , asssigned to variables and sorted in data structures such as list in the last function of this exercise.
      1)Assigning Functions to Variables 
      2)Passing Functions as Arguments
      3)Returning Functions from Functions
