@@ -1,9 +1,9 @@
-from collections.abc import Callable
+from typing import Callable
 
 
 # from data_generator import get_data
 # i created the generat fucuase becuase there is no  generat_py file
-def get_data():
+def get_data() -> list[tuple[str, int]]:
     return [("garden", 10), ("dragon", 50), ("forest", 30)]
 
 
@@ -19,24 +19,32 @@ def tree(target: str, power: int) -> str:
     return f"tree is growing for {target} with power {power} "
 
 
-def spell_combiner(spell1: Callable, spell2: Callable) -> Callable:
-    def calling_spells(target: str, power: int):
+def spell_combiner(
+    spell1: Callable[[str, int], str],
+    spell2: Callable[[str, int], str],
+) -> Callable[[str, int], tuple[str, str]]:
+    def calling_spells(target: str, power: int) -> tuple[str, str]:
         return (spell1(target, power), spell2(target, power))
 
     return calling_spells
 
 
 # base spell is the tree
-def power_amplifier(base_spell: Callable, multiplier: int) -> Callable:
-    def amplified_spells(target, power) -> str:
+def power_amplifier(
+    base_spell: Callable[[str, int], str], multiplier: int
+) -> Callable[[str, int], str]:
+    def amplified_spells(target: str, power: int) -> str:
         return base_spell(target, (lambda power: power * multiplier)(power))
 
     return amplified_spells
 
 
 # spell->flower
-def conditional_caster(condition: Callable, spell: Callable) -> Callable:
-    def cast(target, power):
+def conditional_caster(
+    condition: Callable[[str, int], bool],
+    spell: Callable[[str, int], str],
+) -> Callable[[str, int], str]:
+    def cast(target: str, power: int) -> str:
         if condition(target, power):
             return spell(target, power)
         return "Spell fizzled"
@@ -44,8 +52,10 @@ def conditional_caster(condition: Callable, spell: Callable) -> Callable:
     return cast
 
 
-def spell_sequence(spells: list[Callable]) -> Callable:
-    def casts(target, power):
+def spell_sequence(
+    spells: list[Callable[[str, int], str]],
+) -> Callable[[str, int], list[str]]:
+    def casts(target: str, power: int) -> list[str]:
         results = []
         for spell in spells:
             results.append(spell(target, power))
