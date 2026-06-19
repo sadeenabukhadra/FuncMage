@@ -93,7 +93,7 @@ The idea of this exercise is learning about Lexical Scoping and Closures in pyth
 thae python has four scope levels so the tracking follows LEGB rule. 
 1) Local : This scope contains the names that you define inside the function .These names are only visible from within the function.
 
-2) Enclosing :This a scope that exists only for nested functions and is defined by the outer or enclosing function.The names in the enclosing scope are visible from the code of the inner and outer functions.
+2) Enclosing (nonlocal scope) : This a scope that exists only for nested functions and is defined by the outer or enclosing function.The names in the enclosing scope are visible from the code of the inner and outer functions.
 
 3) Global : This scope contains all of the names that you define at the top level of a script or module. Names in this scope are visible from everywhere in your code.
 
