@@ -101,6 +101,40 @@ thae python has four scope levels so the tracking follows LEGB rule.
 
 4) Built-in : This scope contains names such as built-in functions, exceptions, and other attributes that are built into Python. Names in this scope are also available from everywhere in your code.
 
-- Clouser : function + remmebered variables 
-    
+- Clouser : function + remmebered variables
 
+# EX3
+This exercise we learn a bout functiontools module
+
+Functiontools module : it offers a collecyion of tools that simplify working with functions and callable objects . 
+- WHY we use it ?
+     
+     - simplifies functional programming
+           - by using reduce() and decoratores functions.
+              - reduce() : a functon from functiontools that applies a function cumulatively to the elements of an iterable and returns a single final value.
+              - Syntax  -> reduce (finction, itrable)
+              - Parameters:
+                 - function: A function that takes two arguments and returns a single value.
+                 - iterable: The sequence to be reduced (list, tuple, etc.).
+                 - initializer (optional): A starting value that is placed before first element.
+     
+     - improve performance through memoization
+           - by using lura_cache() -> stores the results of excpensive calling functions and reuses them when the same result accure again.
+   
+     - create specialized functions
+           - by using partial() : its class that
+     
+     - reduces boilerplate code with decoratore
+           - by decotratore
+     
+     - enhances code readability and reuseability
+           - by enabling clearner , more modular and maintainable solutions.
+     - preserve function metedata
+           - by using wrap() : it means write functions that take function as arguments then define an return new functions. its a decorator used when creating costume decoratores.
+           - Syntacs -> @wrap(func).
+           - note : its epuivelience :
+            wrapper.__name__ = func.__name__
+            wrapper.__doc__ = func.__doc__
+            wrapper.__module__ = func.__module__
+            wrapper.__annotations__ = func.__annotations__
+       
