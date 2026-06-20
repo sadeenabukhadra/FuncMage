@@ -90,13 +90,17 @@ The idea of this exercise is learning about Lexical Scoping and Closures in pyth
 - Lexical scoping (static scoping ) : detemine the scope of variable based on the structure of the  program code .
      - lexical : based on the position of writing code .
      - scope : it is where the variable can be accessed (the position of variable that can function access).
-thae python has four scope levels so the tracking follows LEGB rule. 
+thae python has four scope levels so the tracking follows LEGB rule.
+    - NOTE:The tracking ends when the variable is found at its corresponding level.
 1) Local : This scope contains the names that you define inside the function .These names are only visible from within the function.
 
 2) Enclosing (nonlocal scope) : This a scope that exists only for nested functions and is defined by the outer or enclosing function.The names in the enclosing scope are visible from the code of the inner and outer functions.
+    - nonlocal name: its mean the name is neither local nor global that means its visible from both the outer and inner functions.
 
-3) Global : This scope contains all of the names that you define at the top level of a script or module. Names in this scope are visible from everywhere in your code.
+3) Global(module scope): This scope contains all of the names that you define at the top level of a script or module. Names in this scope are visible from everywhere in your code.
 
 4) Built-in : This scope contains names such as built-in functions, exceptions, and other attributes that are built into Python. Names in this scope are also available from everywhere in your code.
+
+- Clouser : function + remmebered variables 
     
 
