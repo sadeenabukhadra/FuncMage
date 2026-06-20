@@ -111,26 +111,51 @@ Functiontools module : it offers a collecyion of tools that simplify working wit
      
      - simplifies functional programming
             - by using reduce() and decoratores functions.
-                   - reduce() : a functon from functiontools that applies a function cumulatively to the elements of an iterable and returns a single final value.
-                   - Syntax  -> reduce (finction, itrable)
-                   - Parameters:
-                          - function: A function that takes two arguments and returns a single value.
-                          - iterable: The sequence to be reduced (list, tuple, etc.).
-                          - initializer (optional): A starting value that is placed before first element.
+
+       - reduce() : a functon from functiontools that applies a function cumulatively to the elements of an iterable and returns a single final value.
+       
+         - Syntax  -> reduce (finction, itrable)
+         
+           - Parameters:
+           
+             - function: A function that takes two arguments and returns a single value.
+
+                  - iterable: The sequence to be reduced (list, tuple, etc.).
+                  
+                  -  initializer (optional): A starting value that is placed before first element.
      
      - improve performance through memoization
-             - by using lura_cache() -> stores the results of excpensive calling functions and reuses them when the same result accure again.
+     
+       -  by using lura_cache() -> stores the results of excpensive calling functions and reuses them when the same result accure again.
    
+     
      - create specialized functions
-             - by using partial() : its class that
+     
+
+       - by using partial() : its class that
+     
+     
      
      - reduces boilerplate code with decoratore
-             - by decotratore
      
+
+        - by decotratore
+     
+
      - enhances code readability and reuseability
-             - by enabling clearner , more modular and maintainable solutions.
-     - preserve function metedata
-             - by using wrap() : it means write functions that take function as arguments then define an return new functions. its a decorator used when creating costume decoratores.
-                    - Syntacs -> @wrap(func).
-                    - note : its epuivelience -> wrapper.__name__ = func .__name__
+     
+
+       - by enabling clearner , more modular and maintainable solutions.
+
+
+       - preserve function metedata
+       
+
+         - by using wrap() : it means write functions that take function as arguments then define an return new functions. its a decorator used when creating costume decoratores.
+         
+
+           - Syntacs -> @wrap(func).
+
+
+             - note : its epuivelience -> wrapper.__name__ = func .__name__
             
