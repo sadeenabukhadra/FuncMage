@@ -152,6 +152,17 @@ Functiontools module : it offers a collecyion of tools that simplify working wit
        
 
          - by using wrap() : it means write functions that take function as arguments then define an return new functions. its a decorator used when creating costume decoratores.
+ # EX4
+ In this exercise we learn a bout decrator factory .
+
+|decrator | decrator factory |
+|---------|-----------------|
+|no argument|takes arguments|
+
+
+ - What is parameterized decrator ?
+
+
          
 
            - Syntacs -> @wrap(func).
