@@ -152,6 +152,12 @@ Functiontools module : it offers a collecyion of tools that simplify working wit
        
 
          - by using wrap() : it means write functions that take function as arguments then define an return new functions. its a decorator used when creating costume decoratores.
+        
+           
+               - Syntacs -> @wrap(func).
+
+
+               - note : its epuivelience -> wrapper.__name__ = func .__name__
  # EX4
  In this exercise we learn a bout decrator factory .
 
@@ -165,8 +171,4 @@ Functiontools module : it offers a collecyion of tools that simplify working wit
 
          
 
-           - Syntacs -> @wrap(func).
-
-
-             - note : its epuivelience -> wrapper.__name__ = func .__name__
             
