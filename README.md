@@ -190,7 +190,7 @@ Its equivelce to :
              say_hi()
              print("wave hand")
          #run
-         wrrapper()
+         wrapper()
   
   
    
