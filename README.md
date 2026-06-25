@@ -159,8 +159,41 @@ Functiontools module : it offers a collecyion of tools that simplify working wit
 
                - note : its epuivelience -> wrapper.__name__ = func .__name__
  # EX4
- In this exercise we learn a bout decrator factory .
+This exercise demonstrates advanced usage of python decorators, higher-order functions and class static methods
+-a decotator : is a function that 
+1) take another function as input
+2) add extra behavior
+3) returns a new modified function
+          
+           
+               @decoratot
+               def func():
+                   pass
+Its equivelce to :
 
+                     func= decrator(func)
+
+- Function wrapping means: Taking an original function and placing it inside another function (called a wrapper) to add extra behavior without changing the original function.
+ 
+   - Wrapping = putting a function inside another function to control how it runs
+
+- original function
+
+
+          def say_hi():
+              print("hi")
+
+- wrapped function
+
+         def wrapped():
+             print("smile")
+             say_hi()
+             print("wave hand")
+         #run
+         wrrapper()
+  
+  
+   
 |decrator | decrator factory |
 |---------|-----------------|
 |no argument|takes arguments|
