@@ -109,14 +109,14 @@ This exercise we learn a bout functiontools module
 Functiontools module : it offers a collecyion of tools that simplify working with functions and callable objects . 
 - WHY we use it ?
      
-  - simplifies functional programming
+     - simplifies functional programming
             - by using reduce() and decoratores functions.
 
-    - reduce() : a functon from functiontools that applies a function cumulatively to the elements of an iterable and returns a single final value.
+        - reduce() : a functon from functiontools that applies a function cumulatively to the elements of an iterable and returns a single final value.
   
-       - Syntax  -> reduce (finction, itrable)
+        - Syntax  -> reduce (finction, itrable)
          
-       - Parameters:
+        - Parameters:
 
            - function: A function that takes two arguments and returns a single value.
        
