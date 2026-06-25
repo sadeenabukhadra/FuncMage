@@ -259,6 +259,9 @@ usage:
                def hello():
                  print("Hi")
 
+- Summury :
+Decorator = function wrapper
+Decorator factory = creates decorators
 #
          
 
