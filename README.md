@@ -260,6 +260,8 @@ usage:
                  print("Hi")
 
 - Summury :
+
+
 Decorator = function wrapper
 
 
