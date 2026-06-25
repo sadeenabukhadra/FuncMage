@@ -261,6 +261,8 @@ usage:
 
 - Summury :
 Decorator = function wrapper
+
+
 Decorator factory = creates decorators
 #
          
