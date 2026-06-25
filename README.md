@@ -262,10 +262,10 @@ usage:
 - Summury :
 
 
-Decorator = function wrapper
+ - Decorator = function wrapper
 
 
-Decorator factory = creates decorators
+ - Decorator factory = creates decorators
 #
          
 
