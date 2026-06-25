@@ -199,8 +199,54 @@ Its equivelce to :
 |no argument|takes arguments|
 
 
+#  Decorators in Python – Clear Breakdown
+
+## 1. Normal Decorator (No Arguments)
+
+A normal decorator wraps a function directly without taking any extra parameters.
+
+### Example:
+
+         def decorator(func):
+           def wrapper():
+             print("Before")
+             func()
+             print("After")
+           return wrapper
+### Usage:
+       ```python
+          @decorator
+          def hello():
+              print("Hi")
+### Key Points:
+- No parameters
+
+
+- Directly wraps the function
+
+- Simple use case
+
+ 2) Decorator Factory (Parameterized Decorator)
+
+    A decorator factory is a function that takes arguments and returns a decorator.
+
+
  - What is parameterized decrator ?
 
+  A parameterized decorator is a decorator that accepts arguments and uses them to customize how the wrapper behaves.
+   
+      def decorator_factory(x):
+          def decorator(func):
+             def wrapper():
+                 print(x)
+                 func()
+              return wrapper
+          return decorator
+usage:
+                
+               @decorator_factory(10)
+               def hello():
+                 print("Hi")
 
          
 
